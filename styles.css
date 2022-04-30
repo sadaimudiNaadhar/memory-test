@@ -2,10 +2,11 @@
     position: relative;
     margin: 1px auto;
     padding: 3px;
-    width: 9em;
-    height: 12em;
+    width: 100%;
+    height: 7em;
     line-height: 12em;
     z-index: 1;
+    margin: 10px 0 0;
 }
 
 .card_container {
@@ -15,7 +16,7 @@
 }
 
 .card {
-    background-color: #68c39f;
+    background-color: #a1b5a4;
     width: 100%;
     height: 100%;
     cursor: pointer;
@@ -51,7 +52,7 @@
     display: block;
     color: white;
     font-size: 7.5em;
-    background-color: #FFCC66;
+    background-color: #58c91c;
     border-radius: 3px;
     -moz-transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
@@ -82,7 +83,7 @@ table {
 
 .startbtn {
     display: block;
-    margin: 10px auto;
+    margin: 50px auto;
     position: relative;
     text-align: center;
 }
@@ -99,15 +100,47 @@ table {
     position: absolute;
 }
 
+.progress {
+    margin: 20px;
+}
+
 .animate-hide {
-    -webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s;
-    -moz-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s;
-    -o-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s;
-    transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s;
+    -webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    -moz-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    -o-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
 }
 
 .animate-hide.ng-hide {
     left: -100%;
     opacity: 0;
     padding: 0 100px;
+}
+
+.p_row {
+    padding: 0 15% 0 10%;
+}
+
+.p1_row {
+    padding: 10px 25% 0px 39px;
+}
+
+.card.shadow i {
+    font-size: 50px;
+}
+
+.back.face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row h3 {
+    margin: 25px 0 0 80px;
+}
+
+.moves {
+    font-size: 30px;
+    position: relative;
+    right: 100px;
 }
