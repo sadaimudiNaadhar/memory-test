@@ -214,7 +214,7 @@ let MemoryGameController = function ($scope, $timeout) {
     }
     $scope.startMainTimer = function () {
 
-        $scope.timeLimit = 180000;
+        $scope.timeLimit = 120000;
         $scope.isGuarding = false;
         $scope.inGame = true;
         $scope.matchedCards = [];
