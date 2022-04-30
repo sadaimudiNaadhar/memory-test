@@ -1,8 +1,8 @@
 let MemoryGameController = function ($scope, $timeout) {
 
     let constants = new (function () {
-        let rows = 2;
-        let columns = 2;
+        let rows = 4;
+        let columns = 4;
         let numMatches = (rows * columns) / 2;
         this.getRows = function () { return rows; };
         this.getColumns = function () { return columns; };
